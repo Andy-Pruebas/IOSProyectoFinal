@@ -14,6 +14,9 @@
 		7D5E216524B53B9E00411940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5E216424B53B9E00411940 /* Assets.xcassets */; };
 		7D5E216824B53B9E00411940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5E216624B53B9E00411940 /* LaunchScreen.storyboard */; };
 		7D5E217024B53FE200411940 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D5E216F24B53FE200411940 /* GoogleService-Info.plist */; };
+		7DF0EC5724B7D90900807EB9 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF0EC5624B7D90900807EB9 /* SnapsViewController.swift */; };
+		7DF0EC5924B7DE9500807EB9 /* ImagenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF0EC5824B7DE9500807EB9 /* ImagenViewController.swift */; };
+		7DF0EC5B24B7EB0100807EB9 /* ElegirUsuarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF0EC5A24B7EB0100807EB9 /* ElegirUsuarioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		7D5E216924B53B9E00411940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D5E216F24B53FE200411940 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7D84C5C024B7895D00263DE5 /* Snapchat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snapchat.entitlements; sourceTree = "<group>"; };
+		7DF0EC5624B7D90900807EB9 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		7DF0EC5824B7DE9500807EB9 /* ImagenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagenViewController.swift; sourceTree = "<group>"; };
+		7DF0EC5A24B7EB0100807EB9 /* ElegirUsuarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElegirUsuarioViewController.swift; sourceTree = "<group>"; };
 		9FA43E5AF3958FEC3B7975D3 /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12DE0BD5948779F4C04DE4E /* Pods-Snapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.debug.xcconfig"; path = "Target Support Files/Pods-Snapchat/Pods-Snapchat.debug.xcconfig"; sourceTree = "<group>"; };
 		CF5DC559E0A1571C9D8E4A1D /* Pods-Snapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.release.xcconfig"; path = "Target Support Files/Pods-Snapchat/Pods-Snapchat.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,6 +87,9 @@
 				7D5E216424B53B9E00411940 /* Assets.xcassets */,
 				7D5E216624B53B9E00411940 /* LaunchScreen.storyboard */,
 				7D5E216924B53B9E00411940 /* Info.plist */,
+				7DF0EC5624B7D90900807EB9 /* SnapsViewController.swift */,
+				7DF0EC5824B7DE9500807EB9 /* ImagenViewController.swift */,
+				7DF0EC5A24B7EB0100807EB9 /* ElegirUsuarioViewController.swift */,
 			);
 			path = Snapchat;
 			sourceTree = "<group>";
@@ -215,7 +224,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D5E216024B53B9D00411940 /* iniciarSesionViewController.swift in Sources */,
+				7DF0EC5924B7DE9500807EB9 /* ImagenViewController.swift in Sources */,
 				7D5E215E24B53B9D00411940 /* AppDelegate.swift in Sources */,
+				7DF0EC5724B7D90900807EB9 /* SnapsViewController.swift in Sources */,
+				7DF0EC5B24B7EB0100807EB9 /* ElegirUsuarioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +241,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		7D5E216624B53B9E00411940 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
